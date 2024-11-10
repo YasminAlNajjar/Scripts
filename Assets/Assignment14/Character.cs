@@ -16,6 +16,8 @@ public class Character
     set {if(value>100){
              health=100;  
              }
+          else if(value<0){
+             health=0;}
          else health=value;
     }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assingment16{
+namespace Assingment18{
 public class Character
 {
     public string name;

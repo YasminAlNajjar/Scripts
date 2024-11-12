@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assingment16{
+namespace Assingment18{
 public class Soldier : Character
 {
     public Soldier(string name,int health,Position position):base(name,health,position)

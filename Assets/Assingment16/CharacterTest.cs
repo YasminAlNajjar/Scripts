@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assingment16{
+namespace Assingment18{
 public class CharacterTest : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -15,7 +15,8 @@ public class CharacterTest : MonoBehaviour
         for(int i=0;i<character.Length;i++){
             character[i].DisplayInfo();
         }
-        soldier.Attack(90,officer);
+        Debug.Log("Soldier health befor the attack: "+soldier.Health);
+        officer.Attack(90,soldier,"shooting");
     }
 }
 }

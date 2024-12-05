@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 namespace Assingment18{
 public class GameInventory : MonoBehaviour
 {
@@ -18,7 +19,9 @@ public class GameInventory : MonoBehaviour
     //   foreach(string name in list){
     //     Debug.Log(naem);
     //   }
-        Inventory inventory1=Inventory.operator+(potions,elixirs);
+        Inventory inventory1=new Inventory();
+        // inventory1.operator+(potions,elixirs);
+            //  inventory1= Inventory.operator+(potions,elixirs);
     }
 
     // Update is called once per frame

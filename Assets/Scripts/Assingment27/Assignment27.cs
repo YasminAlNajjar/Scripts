@@ -7,7 +7,8 @@ public class Assignment27 : MonoBehaviour
 {
     public int callByvalue(int num)
     {
-        return num+10;
+        num+=10;
+        return num;
     }
 
     public int callByRef(ref int num)

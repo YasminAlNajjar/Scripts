@@ -34,8 +34,7 @@ public class Assignment27 : MonoBehaviour
         callByRef(ref num2);
         Debug.Log("num2 after calling the method = "+num2);
 
-        int num3=6;
-        Debug.Log(outMethod(out num3));
+        Debug.Log(outMethod(out int num3));
     }
 
     // Update is called once per frame

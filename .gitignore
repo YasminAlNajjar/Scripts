@@ -8,3 +8,6 @@
 /Scripts.sln
 /Temp
 /UserSettings
+*.meta
+/Assets/*
+!/Assets/Scripts/

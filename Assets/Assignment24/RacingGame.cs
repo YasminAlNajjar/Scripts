@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Assignment24{
 public class RacingGame : MonoBehaviour
 {
     public RaceState raceState;
@@ -37,4 +38,5 @@ public class RacingGame : MonoBehaviour
     {
         SimulateRace(raceState);
     }
+}
 }

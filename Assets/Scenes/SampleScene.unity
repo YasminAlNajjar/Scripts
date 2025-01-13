@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 265550385}
   - component: {fileID: 265550384}
   m_Layer: 0
-  m_Name: BasicScript***
+  m_Name: BasicScript
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1240,7 +1240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2143581473
 MonoBehaviour:
   m_ObjectHideFlags: 0

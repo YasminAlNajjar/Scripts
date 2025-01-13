@@ -16,17 +16,17 @@ public class UnitySpecific : MonoBehaviour
         print("Game started!");
 
         if(GameObject.Find("TargetObject")) 
-          print("Found object by name: TargetObject");
+          print("Found object by name: "+GameObject.Find("TargetObject"));
         else 
           print("No TargetObject found.");
 
         if(GameObject.FindGameObjectWithTag("Joker"))
-          print("Found object by tag: Joker");
+          print("Found object by tag: "+GameObject.FindGameObjectWithTag("Joker"));
         else
           print("No Joker object found");
 
         if(GameObject.FindObjectOfType<Light>())
-          print("Found object of type Light: Directional Light");
+          print("Found object of type Light: "+GameObject.FindObjectOfType<Light>());
         else
           print("No Light object found.");
     }
